@@ -1,0 +1,29 @@
+##############################################################################
+#
+# Source installation for the FSR Base Station
+#
+##############################################################################
+
+# The FSR Base Station ROS package
+
+- git:
+    uri: http://ubuntu-fsr.isr.uc.pt/husky/fsr_husky.git
+    local-name: fsr_base_station
+    version: master
+
+
+# CerealPort
+
+- git:
+    uri: http://ubuntu-fsr.isr.uc.pt/roomba/cereal_port.git
+    local-name: cereal_port
+    version: master
+
+
+# RTK GPS
+
+- git:
+    uri: http://ubuntu-fsr.isr.uc.pt/husky/rtk_gps.git
+    local-name: rtk_gps
+    version: master
+    
